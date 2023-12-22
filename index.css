@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#content {
+  text-align: center;
+  padding: 50px;
+  margin: 50px 200px;
+  width: 500px;
+  height: 500px;
+  opacity: 100;
+  background-color: rgb(242, 242, 242);
+}
+
+#text {
+  animation: fadeIn 4s forwards;
+  margin-bottom: 30px;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
